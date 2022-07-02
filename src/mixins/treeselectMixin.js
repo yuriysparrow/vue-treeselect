@@ -316,6 +316,15 @@ export default {
     },
 
     /**
+     * Whether to enably pagination loading
+     */
+
+    isPaginated: {
+      type: Boolean,
+      default: false,
+    },
+
+    /**
      * Will be passed with all events as the last param.
      * Useful for identifying events origin.
     */
